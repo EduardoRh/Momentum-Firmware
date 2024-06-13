@@ -336,7 +336,7 @@ void furi_hal_subghz_rx(void) {
 }
 
 bool furi_hal_subghz_tx(void) {
-    if(furi_hal_subghz.regulation != SubGhzRegulationTxRx) return false;
+    //if(furi_hal_subghz.regulation != SubGhzRegulationTxRx) return false;
     furi_hal_spi_acquire(&furi_hal_spi_bus_handle_subghz);
     cc1101_switch_to_tx(&furi_hal_spi_bus_handle_subghz);
     //waiting for the chip to switch to Tx mode
