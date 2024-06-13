@@ -203,3 +203,6 @@ If you enjoy the firmware please __**spread the word!**__ And if you really love
 > **BTC**: `1EnCi1HF8Jw6m2dWSUwHLbCRbVBCQSyDKm`
 
 **Thank you <3**
+
+
+
